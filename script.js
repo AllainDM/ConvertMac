@@ -16,10 +16,11 @@ function start(hex) {
 
 document.getElementById('btn-mac').addEventListener('click', () => {
     mac = prompt('Введите мак');
+    document.getElementById('output-before').innerText = mac;
     console.log(mac);
     newMac = hexTodec(mac);
     newMac += 1;
     console.log(newMac);
     console.log(start(newMac));
-    document.getElementById('output').innerText = start(newMac);
+    document.getElementById('output-after').innerText = start(newMac);
 })
