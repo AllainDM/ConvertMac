@@ -1,0 +1,15 @@
+#btn-mac {
+    height:50px;
+    width:100px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.output {
+    padding-top: 5px;
+    font-size: 20pt;
+}
