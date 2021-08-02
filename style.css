@@ -1,6 +1,6 @@
 #btn-mac {
-    
-    height:50px;
+    font-size: 8pt;
+    height:30px;
     width:100px;
 }
 
@@ -13,4 +13,5 @@
 .output {
     padding-top: 5px;
     font-size: 20pt;
+    
 }

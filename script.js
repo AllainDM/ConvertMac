@@ -15,8 +15,8 @@ function start(hex) {
 }
 
 document.getElementById('btn-mac').addEventListener('click', () => {
-    mac = prompt('Введите мак');
-    document.getElementById('output-before').innerText = mac;
+    mac = document.getElementById('mac-before').value;
+    // document.getElementById('mac-before').innerText = mac;
     console.log(mac);
     newMac = hexTodec(mac);
     newMac += 1;
