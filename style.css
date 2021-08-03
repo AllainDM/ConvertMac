@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 1024px;
+    width: 480px;
     margin: 0 auto;
     padding-top: 15px;
 }
@@ -13,5 +13,4 @@
 .output {
     padding-top: 5px;
     font-size: 20pt;
-    
 }
