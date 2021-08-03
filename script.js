@@ -1,26 +1,17 @@
 let mac;
-
 let newMac;
 
-function hexTodec(hex) { 
+function hex2dec(hex) { 
   return parseInt(hex,16); 
 }
 
-// newMac = hexTodec(mac);
-
-// newMac += 1;
-
-function start(hex) {
+function dec2hex(hex) {
   return Number(hex).toString(16);
 }
 
 document.getElementById('btn-mac').addEventListener('click', () => {
     mac = document.getElementById('mac-before').value;
-    // document.getElementById('mac-before').innerText = mac;
-    console.log(mac);
-    newMac = hexTodec(mac);
+    newMac = hex2dec(mac);
     newMac += 1;
-    console.log(newMac);
-    console.log(start(newMac));
-    document.getElementById('output-after').innerText = start(newMac);
+    document.getElementById('mac-after').innerText = dec2hex(newMac);
 })
